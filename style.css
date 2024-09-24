@@ -1,0 +1,86 @@
+body {
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, h2 {
+    font-size: xx-large;
+    color: goldenrod;
+}
+h3{
+    text-align: center;
+}
+
+h4{
+    font-size: 90px;
+    text-align: center;
+    color:white 
+}
+
+p {
+    font-size: large;
+}
+
+div {
+    background-color: lightseagreen ;
+    margin: 1cm;
+    border: 1mm;
+    border-style: outset;
+}
+
+
+
+
+.container {
+    text-align: center;
+    width: 960px;
+    margin: 20px auto;
+    background-image: url(images/IMG_5009.jpg)
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#intro i {
+    font-size: 40px;  
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+ul i{
+    font-size: 30px;
+}
+
+.list-inline {
+    padding-left: 0px;
+}
+.list-inline li{ 
+    display: inline;
+    padding: 50px;
+}
+@media (max-width: 900px) {
+    .container{
+        width: 500px;
+    }
+}
+
+.fa-sailboat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.fa-linkedin:hover {
+    color: goldenrod /* or any other hex code or color name */
+  }
+
+.fa-github:hover, .fa-facebook:hover, .fa-instagram:hover {
+    color:goldenrod; /* or any other hex code or color name *
+} 
